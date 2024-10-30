@@ -1,0 +1,27 @@
+html, body.UIFramedPage{width:100%;height:100%;padding:0px;margin:0px;overflow:hidden;}
+body.UIFramedPage table.page_table{height:100%;width:100%;table-layout:static;border-collapse:collapse;}
+body.UIFramedPage .page_table tr,
+body.UIFramedPage .page_table td{margin:0px;padding:0px;}
+body.UIFramedPage .page_table .header_cell{background:#edeff4 url(/wp-content/plugins/hunk-external-links/UIFramedPage_Header_Gloss.gif) repeat-x top center;border-bottom:1px solid #f5f6f9;}
+body.UIFramedPage .page_table .content_cell{height:100%;overflow:hidden;vertical-align:top;}
+body.UIFramedPage .page_table .content_cell .content_cell_inner_shadow{background:transparent url(/wp-content/plugins/hunk-external-links/UIFramedPage_Inner_Shadow.png) repeat-x bottom left;height:3px;position:absolute;width:100%; font-size:0px;}
+*html body.UIFramedPage .page_table .content_cell .content_cell_inner_shadow{background:transparent;filter:progid:DXImageTransform.Microsoft.AlphaImageLoader(src="/wp-content/plugins/hunk-external-links/UIFramedPage_Inner_Shadow.png", sizingMethod="crop");}
+body.UIFramedPage .page_table .content_cell .content_iframe{height:100%;width:100%;border-width:0px;border-top:1px solid #bcc5d3;margin-bottom:-1px;}
+body.UIFramedPage .header_cell .header_content{float:left;}
+body.UIFramedPage .header_cell .url_bar{color:#999;float:right;padding:15px 10px 11px 10px;text-align:right; font-size:11px; font-family:"lucida grande",tahoma,verdana,arial,sans-serif}
+body.UIFramedPage .header_cell .url_bar a.url_fragment{color:#8498c5;}
+body.UIFramedPage .header_cell .url_bar a.url_fragment:hover{color:#3b5998;}
+body.UIFramedPage .header_cell .url_bar a.url_fragment span.domain_name{font-weight:bold;color:#3b5998;}
+body.UIFramedPage .header_cell .url_bar a.remove_link{width:18px;display:block;float:right;height:18px;line-height:1px;margin:-2px 0px 0px 10px;text-decoration:none;background:transparent url(/wp-content/plugins/hunk-external-links/UIFramedPage_Remove_X.gif) no-repeat top left;}
+body.UIFramedPage .header_cell .url_bar a.remove_link:hover{background-position:bottom left;}
+body.UIFramedPage .header_cell .unknown_url,
+body.UIFramedPage .unknown_page .header_cell .known_url{display:none;}
+body.UIFramedPage .unknown_page .header_cell .unknown_url{display:block;}
+.header_info{float:left;overflow:hidden;padding:7px 0px 4px 10px;}
+.header_info a.header_thumb_link{border-bottom:1px solid #f5f6f9;display:block;float:left;line-height:1px;margin:0px 7px 0px 0px;}
+.header_info .header_info_text{float:left;color:#333;display:block;}
+.header_info .header_info_timestamp{color:#999;font-weight:normal;}
+.header_info .no_comment .header_title_text{padding:8px 0px 0px 0px;}
+.header_info .header_title_text{font-weight:bold;}
+.header_info .header_comment{padding:2px 0px;}
+.header_info .expando{font-size:9px;}
